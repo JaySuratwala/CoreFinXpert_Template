@@ -1,1 +1,0 @@
-# CFX_template
