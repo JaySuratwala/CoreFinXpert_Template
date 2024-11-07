@@ -5,6 +5,7 @@ import { TabsDemo } from "./tabs";
 import { CanvasRevealEffectDemo } from "./canvas-reveal-effect";
 import { BackgroundBeamsDemo } from "./contactUs";
 import { AnimatedTooltipPreview } from "./social";
+import {Footer} from "./footor";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <BackgroundBeamsDemo/>
       </main>
       <AnimatedTooltipPreview/>
+      <Footer/>
     </>
   );
 }

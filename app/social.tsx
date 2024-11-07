@@ -61,7 +61,7 @@ const socialHandles = [
 
 export function AnimatedTooltipPreview() {
     return (
-        <div className="flex flex-row items-center justify-center gap-9 mb-10 w-full bg-black text-white border-white">
+        <div className="flex flex-row items-center justify-center gap-12  w-full bg-black text-white border-white pb-4">
             <AnimatedTooltip items={socialHandles} />
         </div>
     );
