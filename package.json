@@ -2,11 +2,13 @@
   "name": "yt",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://jaysuratwala.github.io/CoreFinXpert_Template/",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "@fortawesome/free-solid-svg-icons": "^6.5.2",
