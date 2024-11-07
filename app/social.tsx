@@ -1,6 +1,7 @@
 "use client";
 import React from "react";
 import { AnimatedTooltip } from "../components/ui/animated-tooltip";
+
 const socialHandles = [
     {
         id: 1,
@@ -42,9 +43,9 @@ const socialHandles = [
         id: 5,
         name: "Portfolio",
         designation: "Jay Suratwala",
-        image: "https://upload.wikimedia.org/wikipedia/commons/1/11/Hoodiwala_Programmer.png", // YouTube Logo
+        image: "https://upload.wikimedia.org/wikipedia/commons/1/11/Hoodiwala_Programmer.png", // Portfolio Logo
         socialLinks: {
-            youtube: "https://youtube.com/channel/yourusername"
+            youtube: "https://youtube.com/channel/yourusername",
         },
     },
     {
@@ -54,7 +55,7 @@ const socialHandles = [
         image: "https://upload.wikimedia.org/wikipedia/commons/5/51/Facebook_f_logo_%282019%29.svg", // Facebook Logo
         socialLinks: {
             facebook: "https://facebook.com/yourusername",
-        }
+        },
     },
 ];
 
